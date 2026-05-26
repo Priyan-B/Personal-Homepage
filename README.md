@@ -104,6 +104,9 @@ The bottom line: Claude was a tool, like Stack Overflow or a tutor. I made the c
 
 <img width="1439" height="777" alt="image" src="https://github.com/user-attachments/assets/2fbf0b13-4d44-479f-98e1-4c8dbc29cdb4" />
 
+<img width="1439" height="776" alt="image" src="https://github.com/user-attachments/assets/f9c7807e-a2d9-4e20-a529-4eef9be867f5" />
+
+<img width="1440" height="777" alt="image" src="https://github.com/user-attachments/assets/c572cfed-7f81-4703-9a57-82e7ade98cf4" />
 
 
 
