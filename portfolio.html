@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Priyan Baskar" />
+    <meta name="description" content="Priyan Baskar's portfolio — real-world projects with AI, full-stack web apps, and developer tools." />
+    <link rel="icon" type="image/png" href="./images/image.png" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Priyan Baskar — Portfolio</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="nav-logo" href="./index.html">priyan<span class="dot">.</span>dev</a>
+        <ul class="nav-links">
+            <li><a class="nav-link" href="./index.html">Home</a></li>
+            <li><a class="nav-link active" href="./portfolio.html">Portfolio</a></li>
+            <li><a class="nav-link" href="./funfacts.html">Fun Facts</a></li>
+        </ul>
+    </nav>
+
+    <main class="page-content">
+        <header class="page-header">
+            <h1 class="page-title">Portfolio</h1>
+            <p class="page-subtitle">Stuff I've built, broken, and learned from.</p>
+        </header>
+
+        <section class="projects-grid">
+
+            <article class="project-card">
+                <div class="project-emoji">🚔</div>
+                <h2 class="project-title">Adversarial Pursuit-Evasion Game</h2>
+                <p class="project-description">
+                    A multi-stage reinforcement learning project where a thief agent learns to
+                    navigate a 15×15 city grid, avoid traps and traffic, and evade police agents
+                    that learn to intercept using CCTV surveillance. Both sides trained with PPO
+                    across 5 stages, culminating in simultaneous adversarial co-training. Final
+                    results: 65.6% escape rate vs 32.1% catch rate.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">PyTorch</span>
+                    <span class="tag">PPO</span>
+                    <span class="tag">Reinforcement Learning</span>
+                    <span class="tag">Multi-Agent</span>
+                </div>
+                <a class="project-link" href="https://github.com/Priyan-B/Grid-based-Pursuit-Evasion-Game" target="_blank" rel="noopener">View on GitHub →</a>
+            </article>
+
+            <article class="project-card">
+                <div class="project-emoji">📅</div>
+                <h2 class="project-title">Calendar Application</h2>
+                <p class="project-description">
+                    A virtual calendar engine built with Java + JavaFX. Applied OOP principles and
+                    data structures (IO-free models, date-indexed storage) for fast query performance.
+                    Features creation/editing/deletion of single and recurring events, plus a custom
+                    analytics module to track user metrics.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">Java</span>
+                    <span class="tag">JavaFX</span>
+                    <span class="tag">MVC</span>
+                    <span class="tag">JUnit</span>
+                </div>
+                <a class="project-link" href="https://github.com/Priyan-B/Calendar-Application" target="_blank" rel="noopener">View on GitHub →</a>
+            </article>
+
+            <article class="project-card">
+                <div class="project-emoji">💪</div>
+                <h2 class="project-title">WeFit — Wellness Dashboard</h2>
+                <p class="project-description">
+                    A full-stack wellness dashboard using Python (Flask) and MySQL. Implemented a
+                    stored procedure-centric backend and 3NF schema to automate calorie and nutrition
+                    summaries. Deployed SIGNAL-based validation and session-based authentication for
+                    secure end-to-end CRUD workflows.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">Flask</span>
+                    <span class="tag">MySQL</span>
+                    <span class="tag">HTML</span>
+                </div>
+                <a class="project-link" href="https://github.com/Priyan-B/WeFit" target="_blank" rel="noopener">View on GitHub →</a>
+            </article>
+
+            <article class="project-card">
+                <div class="project-emoji">💊</div>
+                <h2 class="project-title">MediRX</h2>
+                <p class="project-description">
+                    An NFC-based patient record web app using Vue.js and MongoDB. Built REST APIs that
+                    reduced patient record retrieval time by 75% for 1,000+ users. Integrated AES
+                    encryption for HIPAA compliance, maintaining 98% uptime during stress tests
+                    with 500+ concurrent users.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">Vue.js</span>
+                    <span class="tag">Express.js</span>
+                    <span class="tag">MongoDB</span>
+                    <span class="tag">NFC</span>
+                </div>
+                <a class="project-link" href="https://github.com/Priyan-B/medirx" target="_blank" rel="noopener">View on GitHub →</a>
+            </article>
+
+            <article class="project-card">
+                <div class="project-emoji">🏠</div>
+                <h2 class="project-title">SF Airbnb Listings</h2>
+                <p class="project-description">
+                    A vanilla JS webpage that loads 50 San Francisco Airbnb listings from a JSON file
+                    using fetch + async/await (AJAX). Features sort by price/rating and a favorite
+                    heart toggle. Built for CS5610 web development assignment.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">AJAX</span>
+                </div>
+                <a class="project-link" href="https://github.com/Priyan-B/airbnb-listings" target="_blank" rel="noopener">View on GitHub →</a>
+            </article>
+
+        </section>
+
+        <section class="skills-section">
+            <h2 class="section-title">Tech Stack</h2>
+            <p class="section-subtitle">What I use day-to-day</p>
+
+            <h3 class="skill-category">Languages & Frameworks</h3>
+            <div class="skills-grid">
+                <div class="skill-pill">Java</div>
+                <div class="skill-pill">Python</div>
+                <div class="skill-pill">JavaScript</div>
+                <div class="skill-pill">TypeScript</div>
+                <div class="skill-pill">C++</div>
+                <div class="skill-pill">React</div>
+                <div class="skill-pill">Vue.js</div>
+                <div class="skill-pill">Node.js</div>
+                <div class="skill-pill">Express.js</div>
+                <div class="skill-pill">Django</div>
+                <div class="skill-pill">Flask</div>
+                <div class="skill-pill">Groovy</div>
+            </div>
+
+            <h3 class="skill-category">Databases & Backend</h3>
+            <div class="skills-grid">
+                <div class="skill-pill">MySQL</div>
+                <div class="skill-pill">PostgreSQL</div>
+                <div class="skill-pill">MongoDB</div>
+                <div class="skill-pill">SQLite</div>
+                <div class="skill-pill">Kubernetes</div>
+                <div class="skill-pill">ETL</div>
+            </div>
+
+            <h3 class="skill-category">Tools & DevOps</h3>
+            <div class="skills-grid">
+                <div class="skill-pill">Git</div>
+                <div class="skill-pill">Azure DevOps</div>
+                <div class="skill-pill">CI/CD</div>
+                <div class="skill-pill">Jira</div>
+                <div class="skill-pill">Confluence</div>
+                <div class="skill-pill">Postman</div>
+                <div class="skill-pill">Power BI</div>
+                <div class="skill-pill">Katalon Studio</div>
+            </div>
+
+            <h3 class="skill-category">AI / ML</h3>
+            <div class="skills-grid">
+                <div class="skill-pill">PyTorch</div>
+                <div class="skill-pill">PPO</div>
+                <div class="skill-pill">Reinforcement Learning</div>
+                <div class="skill-pill">NumPy</div>
+                <div class="skill-pill">Matplotlib</div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p> Appreciate my work here and come hangout with me </p>
+        <div class="footer-links">
+            <a href="https://github.com/Priyan-B" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.linkedin.com/in/priyan-baskar-a1263227a/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://mail.google.com/mail/?view=cm&fu=1&to=priyanbas48@gmail.com">Email</a>
+        </div>
+    </footer>
+
+    <script type="module" src="./js/script.js"></script>
+</body>
+</html>

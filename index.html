@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Priyan Baskar" />
+    <meta name="description" content="Priyan Baskar — MS Computer Science student at Northeastern University. Software Developer with experience at Hitachi Energy. Take the friendship quiz!" />
+    <meta name="keywords" content="Priyan Baskar, Northeastern University, Software Developer, Computer Science, Boston, portfolio" />
+    <meta property="og:title" content="Priyan Baskar — Personal Homepage" />
+    <meta property="og:description" content="MS CS student at Northeastern." />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/png" href="./images/image.png" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Priyan Baskar — Home</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="nav-logo" href="./index.html">Priyan<span class="dot">.</span>Homepage</a>
+        <ul class="nav-links">
+            <li><a class="nav-link active" href="./index.html">Home</a></li>
+            <li><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
+            <li><a class="nav-link" href="./funfacts.html">Fun Facts</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <p class="hero-greeting">Hey, I'm</p>
+            <h1 class="hero-name">Priyan Baskar <span class="wave">👋</span></h1>
+            <p class="hero-tagline">
+                MS Computer Science @ Northeastern · Software Developer · Available Summer 2026
+            </p>
+            <p class="hero-bio">
+                I'm a graduate student at Northeastern's Khoury College, studying Programming Design
+                Paradigms, Algorithms, and Foundations of AI. Before grad school, I spent 1.5 years at
+                <strong>Hitachi Energy</strong> building scalable backend services in Java and Groovy,
+                designing data integration suites for Enterprise Asset Management, and migrating legacy
+                components to cloud-native architecture on Azure. I love building things end-to-end
+                from REST APIs to GUIs to CI/CD pipelines.
+            </p>
+            <div class="hero-actions">
+                <a class="btn btn-primary" href="./portfolio.html">See my work</a>
+                <a class="btn btn-secondary" href="#quiz-section">Are you cool enough?</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="./images/image.png" alt="Priyan Baskar's profile photo" class="profile-photo" />
+        </div>
+    </header>
+
+    <section class="stats">
+        <div class="stat-card">
+            <span class="stat-number">1.5</span>
+            <span class="stat-label">Years @ Hitachi Energy</span>
+        </div>
+        <div class="stat-card">
+            <span class="stat-number">3.66</span>
+            <span class="stat-label">GPA at Northeastern</span>
+        </div>
+        <div class="stat-card">
+            <span class="stat-number">10+</span>
+            <span class="stat-label">Languages & Frameworks</span>
+        </div>
+        <div class="stat-card">
+            <span class="stat-number">∞</span>
+            <span class="stat-label">Cups of filter coffee</span>
+        </div>
+    </section>
+
+    <section class="experience-preview">
+        <h2 class="section-title">Where I've Been</h2>
+        <div class="experience-timeline">
+            <article class="timeline-card">
+                <div class="timeline-date">Sep 2025 – May 2027</div>
+                <h3 class="timeline-title">Northeastern University</h3>
+                <p class="timeline-role">MS in Computer Science - Khoury College</p>
+                <p class="timeline-desc">
+                    Studying Programming Design Paradigms, Database Management Systems, Algorithms,
+                    and Foundations of AI. GPA: 3.66/4.00.
+                </p>
+            </article>
+
+            <article class="timeline-card">
+                <div class="timeline-date">Feb 2024 – Jun 2025</div>
+                <h3 class="timeline-title">Hitachi Energy</h3>
+                <p class="timeline-role">Software Developer - Chennai, India</p>
+                <p class="timeline-desc">
+                    Built scalable backend services in Java and Groovy. Designed data integration
+                    suites for Enterprise Asset Management. Migrated legacy systems to cloud-native
+                    architecture via Azure DevOps CI/CD. Reduced integration bottlenecks by 20%.
+                </p>
+            </article>
+
+            <article class="timeline-card">
+                <div class="timeline-date">Sep 2020 – Apr 2024</div>
+                <h3 class="timeline-title">Anna University</h3>
+                <p class="timeline-role">BE in Computer Science - Chennai, India</p>
+                <p class="timeline-desc">
+                    Bachelor's degree with GPA 8.54/10.0. Coursework in DSA, OOP, Cloud Computing,
+                    Distributed Systems, and Software Engineering Principles.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <section class="quiz-section" id="quiz-section">
+        <h2 class="section-title">Are you cool enough to be friends with Priyan?</h2>
+        <p class="section-subtitle">5 questions, no pressure (Lots of pressure)</p>
+        <div class="quiz-container" id="quiz-container">
+            <p class="quiz-loading">Loading quiz...</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Appreciate my work here and come hangout with me</p>
+        <div class="footer-links">
+            <a href="https://github.com/priyan-b" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.linkedin.com/in/priyan-baskar-a1263227a/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://mail.google.com/mail/?view=cm&fu=1&to=priyanbas48@gmail.com" target="_blank" rel="noopener">Email</a>
+        </div>
+    </footer>
+
+    <script type="module" src="./js/script.js"></script>
+</body>
+</html>
